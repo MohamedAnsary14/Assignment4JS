@@ -1,0 +1,33 @@
+body{
+   background: rgb(36, 53, 63);
+}
+.container{
+   background: rgb(36, 53, 63);
+}
+.content{
+   box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+h1{
+   color: rgb(23, 162, 184);
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 2.5rem;
+   font-weight: 500;
+   line-height: 1.2;
+}
+input ,placeholder {
+   background-color: transparent!important; 
+   color: rgb(255, 255, 255)!important; 
+}
+::placeholder {
+   
+   color: rgb(206, 212, 218)!important; 
+}
+a{
+   text-decoration: none;
+   color: white;
+   transition:text-decoration .5s ;
+}
+a:hover{
+   text-decoration:underline;
+
+}
